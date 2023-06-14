@@ -19,7 +19,7 @@ clock = pygame.time.Clock()
 font = pygame.font.Font(None, 36)  # Change the size as needed
 
 bird_surface = pygame.image.load(
-    'bird.png').convert_alpha()  # load an image for the bird
+    'assets/bird.png').convert_alpha()  # load an image for the bird
 bird_rect = bird_surface.get_rect(center=(50, WINDOW_HEIGHT/2))
 
 upper_obstacle_rect = pygame.Rect(
